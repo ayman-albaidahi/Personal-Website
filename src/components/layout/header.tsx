@@ -63,9 +63,11 @@ export function Header() {
               {currentLocale === 'ar' ? 'English' : 'العربية'}
             </Button>
           </Link>
-          <Button size="sm">
-             {currentLocale === 'ar' ? 'تواصل معي' : 'Contact'}
-          </Button>
+          <Link href={`/${currentLocale}/contact`}>
+            <Button size="sm">
+              {currentLocale === 'ar' ? 'تواصل معي' : 'Contact'}
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -89,9 +91,11 @@ export function Header() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 pt-4">
-               <Button className="w-full">
-                  {currentLocale === 'ar' ? 'تواصل معي' : 'Contact Me'}
-               </Button>
+               <Link href={`/${currentLocale}/contact`} onClick={() => setIsOpen(false)}>
+                 <Button className="w-full">
+                    {currentLocale === 'ar' ? 'تواصل معي' : 'Contact Me'}
+                 </Button>
+               </Link>
             </div>
           </nav>
         </div>

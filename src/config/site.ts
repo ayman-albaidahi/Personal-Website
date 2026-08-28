@@ -1,16 +1,13 @@
 export const siteConfig = {
   name: 'Ayman Al-Baidhi | أيمن البيدحي',
-  description: 'Ayman Al-Baidhi is a software engineer specializing in web development and open-source contributions.',
-  url: 'https://ayman-albaydahi.com',
+  description: 'Personal portfolio of Ayman Al-Baidhi, a Computer Science student and future software engineer from Yemen.',
+  url: 'https://github.com/ayman-albaidahi/Personal-Website',
   ogImage: '/images/og.jpg',
   links: {
-    twitter: 'https://twitter.com/ayman_username',
-    github: 'https://github.com/aymanalbaydhi',
-    linkedin: 'https://linkedin.com/in/ayman-albaydahi',
+    github: 'https://github.com/ayman-albaidahi',
   },
   author: {
     name: 'Ayman Al-Baidhi',
-    email: 'aymanprojectai@gmail.com',
   },
 }
 

@@ -37,8 +37,7 @@ export default async function RootLayout({
     <html lang={locale} dir={direction} suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen antialiased transition-colors duration-300",
-          "bg-slate-50 dark:bg-slate-950", 
+          "min-h-screen bg-[#07111f] antialiased transition-colors duration-300",
           inter.variable,
           merriweather.variable
         )}
